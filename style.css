@@ -208,12 +208,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     gap: 25px;
 }
 
 .projects .project {
     text-align: center;
-    width: 20%;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-width: 160px;
 }
 
 .projects .project:hover {
@@ -255,5 +259,9 @@ footer {
 
     .container {
         padding: 100px 0px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
     }
 }
