@@ -220,13 +220,29 @@ a {
     min-width: 160px;
 }
 
-.projects .project:hover {
-    cursor: pointer;
-}
-
 .projects .project img {
     margin-block: 5px;
     width: 100px;
+}
+
+.projects .project .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.projects .links a:hover {
+    cursor: pointer;
+}
+
+.projects .project .links img:hover {
+    cursor: pointer;
+}
+
+.projects .project .links img {
+    max-width: 75%;
 }
 
 footer {
