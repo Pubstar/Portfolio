@@ -217,6 +217,7 @@ a {
     text-align: center;
     border-radius: 25px;
     padding: 25px;
+    padding-bottom: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     min-width: 160px;
 }
@@ -227,8 +228,10 @@ a {
 }
 
 .projects .project .links {
+    border-top: 1px solid rgba(0, 0, 0, 0.171);
+    padding-top: 10px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     gap: 5px;
     margin-top: 20px;
