@@ -210,6 +210,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .projects .project {
@@ -278,9 +279,5 @@ footer {
 
     .container {
         padding: 100px 0px;
-    }
-
-    .projects {
-        flex-wrap: wrap;
     }
 }
